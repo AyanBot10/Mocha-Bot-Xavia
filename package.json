@@ -28,7 +28,6 @@
   "dependencies": {
     "@distube/ytdl-core": "^4.14.4",
     "@replit/database": "^2.0.2",
-    "@xaviabot/fca-unofficial": "^1.3.33",
     "axios": "^1.6.7",
     "canvas": "^2.10.1",
     "cors": "^2.8.5",
@@ -47,6 +46,7 @@
     "samirapi": "^1.0.3",
     "semver": "^7.3.8",
     "string-similarity": "^4.0.4",
+    "ws3-fca": "",
     "wikijs": "^6.4.0",
     "ytdl-core": "^4.11.2"
   }

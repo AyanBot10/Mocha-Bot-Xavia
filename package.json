@@ -46,7 +46,7 @@
     "samirapi": "^1.0.3",
     "semver": "^7.3.8",
     "string-similarity": "^4.0.4",
-    "ws3-fca": "",
+    "ws3-fca": "^1.0.15",
     "wikijs": "^6.4.0",
     "ytdl-core": "^4.11.2"
   }

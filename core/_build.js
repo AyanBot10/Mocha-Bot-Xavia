@@ -5,7 +5,7 @@ import { writeFileSync } from "fs";
 import { resolve as resolvePath } from "path";
 import logger from "./var/modules/logger.js";
 
-import login from "@xaviabot/fca-unofficial";
+import login from "ws3-fca";
 import startServer from "./dashboard/server/app.js";
 import handleListen from "./handlers/listen.js";
 import { isGlitch, isReplit } from "./var/modules/environments.get.js";
@@ -86,7 +86,7 @@ async function start() {
 global.listenerID = null;
 
 /**
- * @param {import("@xaviabot/fca-unofficial").IFCAU_API} api
+ * @param {import("ws3-fca").IFCAU_API} api
  * @param {xDatabase} xDatabase
  */
 async function booting(api, xDatabase) {
